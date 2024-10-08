@@ -1,0 +1,16 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-member {
+  margin: 20px;
+  text-align: center;
+  max-width: 200px; /* Ajustez la taille selon vos préférences */
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%; /* Pour un effet circulaire sur les photos */
+}
