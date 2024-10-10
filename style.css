@@ -1,3 +1,33 @@
+/* Style de la barre des onglets */
+.tab {
+  overflow: hidden;
+  background-color: #4CAF50;
+  display: flex;
+  justify-content: center;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: background-color 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+.tab button:hover {
+  background-color: #3e8e41;
+}
+
+.tab button.active {
+  background-color: #2e7031;
+}
+
+/* Style pour le contenu des onglets */
+
+
 /* Conteneur de l'équipe */
 .team-container {
   display: flex;
