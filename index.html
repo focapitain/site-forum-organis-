@@ -6,12 +6,19 @@
     <title>Forum Organisé</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
-<body>
+    <body>
     <header>
         <img src="logo.png" alt="Logo de Forum Organisé" class="logo">
         <h1>Forum Organisé</h1>
     </header>
-
+     <!-- Navigation des onglets -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'home')">Accueil</button>
+        <button class="tablinks" onclick="openTab(event, 'events')">Événements</button>
+        <button class="tablinks" onclick="openTab(event, 'conversion')">Conversion LaTeX</button>
+    </div>
+        
+<div id="home" class="tabcontent">
     <section id="about">
         <h2>Qui sommes-nous ?</h2>
         <p>Salut à tous ! 🚀</p>
@@ -35,6 +42,31 @@
             <!-- Ajoute d'autres membres ici si besoin -->
         </div>
     </section>
+</div>
+
+     <!-- Contenu de l'onglet Événements -->
+    <div id="events" class="tabcontent">
+        <h2>Événements à venir</h2>
+        <ul>
+            <li>Événement 1 - Date : 10 octobre 2024</li>
+            <li>Événement 2 - Date : 15 novembre 2024</li>
+            <li>Événement 3 - Date : 20 décembre 2024</li>
+            <!-- Ajoute d'autres événements ici -->
+        </ul>
+    </div>
+
+     <!-- Contenu de l'onglet Conversion LaTeX -->
+    <div id="conversion" class="tabcontent">
+        <h2>Conversion LaTeX en PDF</h2>
+        <p>Utilisez cet outil pour convertir vos fichiers LaTeX (.tex) en PDF.</p>
+        <form id="latexForm">
+            <label for="latexFile">Choisir un fichier .tex :</label>
+            <input type="file" id="latexFile" accept=".tex">
+            <br><br>
+            <button type="submit">Convertir en PDF</button>
+        </form>
+        <p id="conversionResult"></p>
+    </div>
 
     <footer>
         <p>&copy; 2024 Forum Organisé. Tous droits réservés.</p>
