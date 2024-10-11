@@ -147,6 +147,11 @@ li:hover {
     background-color: #2e7031;
 }
 
+.event {
+    width: 200px;
+    height: auto;
+}
+
 /* Conversion Form Styles */
 #conversion form {
     margin: 20px 0;
