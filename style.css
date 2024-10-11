@@ -184,7 +184,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    position: relative;
+    position: absolute;
     width: 100%;
     bottom: 0;
 }
