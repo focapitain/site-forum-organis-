@@ -1,79 +1,3 @@
-/* Style de la barre des onglets 
-.tab {
-  overflow: hidden;
-  background-color: #4CAF50;
-  display: flex;
-  justify-content: center;
-}
-
-.tab button {
-  background-color: inherit;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: background-color 0.3s;
-  font-size: 17px;
-  color: white;
-}
-
-.tab button:hover {
-  background-color: #3e8e41;
-}
-
-.tab button.active {
-  background-color: #2e7031;
-}
-
-/* Style pour le contenu des onglets *
-
-
-/* Conteneur de l'équipe *
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 1200px; /* Limite la largeur pour que le contenu soit centré *
-  padding: 20px;
-}
-
-/* Chaque membre de l'équipe *
-.team-member {
-  margin: 20px;
-  text-align: center;
-  max-width: 200px; /* Ajustez la taille selon vos préférences *
-  transition: transform 0.3s ease; /* Pour l'effet de zoom au survol *
-}
-
-.team-member:hover {
-  transform: scale(1.05); /* Zoom léger au survol */
-}
-
-/* Style pour les images des membres *
-.team-member img {
-  width: 100%;
-  height: auto; /* Assure que l'image conserve ses proportions *
-  border-radius: 50%; /* Pour un effet circulaire sur les photos *
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour ajouter de la profondeur *
-  transition: box-shadow 0.3s ease; /* Animation de l'ombre au survol *
-}
-
-.team-member img:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre plus grande au survol *
-}
-
-/* Texte pour chaque membre de l'équipe *
-.team-member h3 {
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-
-.team-member p {
-  font-size: 0.9em;
-  color: #666; /* Couleur légèrement plus claire pour le texte descriptif *
-}
-*/
 
 /* Global Styles */
 body {
@@ -260,7 +184,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
